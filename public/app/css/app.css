@@ -1,0 +1,123 @@
+body
+{
+    background: #E9E9E9 none repeat scroll 0% 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+    .date-posts
+    {
+        margin: 0 auto;
+    }
+
+    .date-posts  .date-post
+    {
+        width: 250px;
+        padding: 10px;
+    }
+
+    .date-posts .post-outer
+    {
+        width: 100%;
+        padding: 10px;
+        margin: 10px auto  10px auto;
+        background: #FFF none repeat scroll 0% 0%;
+    }
+        .date-posts .post-outer img
+        {
+            width:100%;
+        }
+        .date-posts .title-only 
+        {
+            border-bottom: 1px solid #F7F7F7;
+            margin-top: 8px;
+            padding-bottom: 9px;
+        }
+            .date-posts .title-only a
+            {
+                color: #636262;
+                display: block;
+                font-size:13px;
+                font-weight: normal;
+                line-height: 19px;
+            }
+
+.menu-left
+{
+    position: fixed;
+    top:0px;
+    bottom: 0px;
+    z-index: 999;
+    background-color: #FFF;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+    .menu-left .topper {
+        background: #393939;
+        position: absolute;
+        top: 0;
+        right:0px;
+        width: 58px;
+        height: 50px;
+        z-index: 999;
+        margin-right: -59px;
+    }
+        .menu-left .toptier {
+            padding-left: 17px;
+            padding-right: 20px;
+            padding-top: 12px;
+        }
+        .menu-left .fa.fa-navicon
+        {
+            color: #FFFFFF;
+            font-size: 24px;
+        }
+    .menu-left .menu-box
+    {
+        margin: 10px 0px;
+        width:200px;
+    }
+        .menu-left .menu-box a
+        {
+            border-top-color: #ECECEC;
+            padding: 0px 20px;
+            color: #656565;
+            font-size: 13px;
+            display: block;
+            line-height: 39px;
+            border-top: 1px solid rgba(0, 0, 0, 0.15);
+        }
+
+        .menu-left .menu-box li:hover a {
+            color: #FFF;
+            background-color: #18ADB6;
+                    text-decoration: none;
+        }
+
+.datecomm
+{
+    float: left;
+    width:100%;
+    color: #636262;
+    margin-top: -14px;
+}
+    .datecomm .post-date
+    {
+        float: left;
+    }
+    .datecomm .post-comment
+    {
+        float: right;
+    }
+    .fa.fa-calendar-o,
+    .fa.fa-comment
+    {
+        color: #A9A8A8;
+        font-size: 11px;
+    }
+    .post-date span,
+    .post-comment span
+    {
+        color: #A3A3A3;
+        font-family: varela round;
+        font-size: 11px;
+        font-weight: normal;
+        font-family: 'Open Sans', sans-serif;
+    }
